@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Michael Heavey">
+<title>Albums</title>
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link href="css/hover-min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="albumsheader">
+  <nav> <a href="index.html" class="hvr-pulse-grow"><img alt="The band's current logo" src="images/pondlogonew.png"></a>
+    <div class="nav-links" id="navLinks"> <i class="fa fa-close" onclick="hideMenu()"></i>
+       <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="albums.html">ALBUMS</a></li>
+        <li><a href="merch.html">MERCH</a></li>
+        <li><a href="tour.html">TOUR</a></li>
+        <div class="dropdown">
+          <button class="dropbtn">OTHER STUFF</button>
+          <div class="dropdown-content"> 
+			  <a href="gallery.html" id="yellow">GALLERY</a>
+			  <a href="playlists.html" id="green">OUR PLAYLISTS</a>
+			</div>
+        </div>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i> </nav>
+  <div class="text-box">
+    <h1>9 DELUXE EDITION<br> OUT NOW</h1>
+    <p></p>
+    <a href="https://open.spotify.com/album/1OPNyMf1xQGDLE1PEwdkgs?si=3RsTJyutTfuIlCFn1dvugQ" class="hero-btn">Listen on Spotify</a>
+	<a href="https://store.sound-merch.com.au/collections/pond/products/9-dlx-hologram-metallic-silver-2lp-sticker-pre-order?variant=41289902850220" class="hero-btn">Own on Vinyl</a></div>
+</section>
+<section class="albumbg">
+<div class="albumcontainer">
+  <div class="nine">
+	  <img alt="Album art for Ponds album titled 9" src="images/nine.jpeg">
+	  <div class="albumtext">
+		  <h3>9</h3>
+	  </div>
+	</div>
+  <div class="tasmania">
+	  <img alt="Album art for Ponds album titled tasmania" src="images/tasmania.jpeg">
+	  <div class="albumtext">
+		  <h3>Tasmania</h3>
+	  </div>
+  </div>
+  <div class="theweather"><img alt="Album art for Ponds album titled the weather" src="images/theweather.jpeg">
+	  <div class="albumtext">
+		  <h3>The Weather</h3>
+	  </div>
+  </div>
+  <div class="miflsa">
+	  <img alt="Album art for Ponds album titled Man it feels like space again" src="images/miflsa.jpeg">
+	  <div class="albumtext">
+		  <h3>Man It Feels Like Space Again</h3>
+	  </div>
+  </div>
+  <div class="hoborocket">
+	  <img alt="Album art for Ponds album titled hoborocket" src="images/hoborocket.jpeg">
+	  <div class="albumtext">
+		  <h3>Hobo Rocket</h3>
+	  </div>
+  </div>
+  <div class="bwd">
+	  <img alt="Album art for Ponds album titled beard wives denim" src="images/bwd.jpeg">
+	  <div class="albumtext">
+		  <h3>Beard, Wives, Denim</h3>
+	  </div>
+  </div>
+  <div class="frond">
+	  <img  alt="Album art for Ponds album titled frond" src="images/frond.jpeg">
+	  <div class="albumtext">
+		  <h3>Frond</h3>
+	  </div>
+  </div>
+  <div class="cob">
+	  <img alt="Album art for Ponds album titled corridors of blissterday" src="images/cob.jpeg">
+	  <div class="albumtext">
+		  <h3>Corridors of Blissterday</h3>
+	  </div>
+  </div>
+  <div class="pm">
+	  <img alt="Album art for Ponds album titled psychedlelic mango" src="images/pm.jpeg">
+	  <div class="albumtext">
+		  <h3>Psychedelic Mango</h3>
+	  </div>
+  </div>
+</div>
+</section>
+	<!-------- footer ---------->
+<section class="footer">
+  <p>© Spinning Top Music 2022. All rights reserved.</p>
+  <div class="icons"> 
+  <a href="https://www.facebook.com/pondling" class="hvr-icon-wobble-vertical"><i class="fa fa-facebook hvr-icon"></i>
+  </a>
+  <a href="https://twitter.com/pondband?lang=en" class="hvr-icon-wobble-vertical"><i class="fa fa-twitter hvr-icon"></i></a> <a href="https://www.instagram.com/ponderers/?hl=en" class="hvr-icon-wobble-vertical"><i class="fa fa-instagram hvr-icon"></i></a> <a href="https://www.youtube.com/channel/UC740AuHpQa5nAo4S7yezzkg" class="hvr-icon-wobble-vertical"><i class="fa fa-youtube-play hvr-icon"></i></a> <a href="https://open.spotify.com/artist/4skJp5OKvcc9eKokiuhi2s?si=p2fLKgx5Q_aRR_uTwM1B_Q " class="hvr-icon-wobble-vertical"><i class="fa fa-spotify hvr-icon"></i></a> <a href="https://music.apple.com/us/artist/pond/501465546" class="hvr-icon-wobble-vertical"><i class="fa fa-apple hvr-icon"></i></a> </div>
+</section>
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>
